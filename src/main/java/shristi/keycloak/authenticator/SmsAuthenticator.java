@@ -103,8 +103,7 @@ public class SmsAuthenticator implements Authenticator {
 
 	@Override
 	public void setRequiredActions(KeycloakSession session, RealmModel realm, UserModel user) {
-		// this will only work if you have the required action from here configured:
-		// https://github.com/dasniko/keycloak-extensions-demo/tree/main/requiredaction
+	
 		user.addRequiredAction("mobile-number-ra");
 	}
 

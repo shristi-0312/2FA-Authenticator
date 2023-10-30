@@ -6,9 +6,7 @@ import software.amazon.awssdk.services.sns.model.MessageAttributeValue;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- * @author Niko Köbler, https://www.n-k.de, @dasniko
- */
+
 public class AwsSmsService implements SmsService {
 
 	private static final SnsClient sns = SnsClient.create();

@@ -5,9 +5,6 @@ import lombok.extern.slf4j.Slf4j;
 
 import java.util.Map;
 
-/**
- * @author Niko Köbler, https://www.n-k.de, @dasniko
- */
 @Slf4j
 public class SmsServiceFactory {
 
